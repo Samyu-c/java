@@ -5,13 +5,16 @@ public class Second_largest {
         int largest =arr[0];
         int secondLargest=-1;
         for (int i=0;i<n;i++)
-        {
+        { 
+             
             if(arr[i]>largest)
             {
-                secondLargest=largest;
+                 
+                secondLargest=largest;// Update second largest
                 largest=arr[i];
 
             }
+            // If current element is smaller than largest but greater than secondLargest     
             else if(arr[i]<largest && arr[i]>secondLargest)
             {
                 secondLargest=arr[i];
