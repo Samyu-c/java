@@ -1,6 +1,6 @@
 import java.util.Calendar;
 import java.util.Scanner;
-public class calender {
+public class calendar {
 
     public static String getDay(int month, int day, int year) {
         Calendar c = Calendar.getInstance();
